@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/4682e48bd6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/indext.css">
+    </head>
+    <body>
+        <script src="indext.js"></script>
+        <div class="container">
+            <div class="top-container">
+                <input type="button" id="0" class="top-item" onclick="clickHandler(0,0) " value=""/>
+                <input type="button" id="1" class="top-item" onclick="clickHandler(0,1)" value=""/>
+                <input type="button" id="2" class="top-item" onclick="clickHandler(0,2)" value=""/>
+                <input type="button" id="10" class="top-item" onclick="clickHandler(1,0)" value=""/>
+                <input type="button" id="11" class="top-item" onclick="clickHandler(1,1)" value=""/>
+                <input type="button" id="12" class="top-item" onclick="clickHandler(1,2)" value=""/>
+                <input type="button" id="20" class="top-item" onclick="clickHandler(2,0)" value=""/>
+                <input type="button" id="21" class="top-item" onclick="clickHandler(2,1)" value=""/>
+                <input type="button" id="22" class="top-item" onclick="clickHandler(2,2)" value=""/>
+            </div>
+            <div class="middle-container">
+                <h1 id="turn_value" >Turn: X</h3>
+            </div>
+            <h3 id="winner"></h3>
+            <button id="Reset" class="bottom-container" onclick="RESET()">
+                Reset
+            </button>
+        </div>
+    </body>
+</html>
